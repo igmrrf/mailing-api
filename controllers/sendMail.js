@@ -6,7 +6,7 @@ sgMail.setApiKey(apiKey);
 const sendMail = async (recipient, emailSubject, content) => {
   const msg = {
     to: "devclub57@gmail.com",
-    from: "react.redux@react.redux",
+    from: "vuetify@vue.com",
     subject: emailSubject,
     html: content,
   };
