@@ -1,6 +1,6 @@
 # SIMPLE EMAIL SENDING API
 
-##Tech Stack
+## Tech Stack
 
 1. Nodejs
 2. Expressjs
