@@ -13,14 +13,13 @@ const sendMail = async (recipient, emailSubject, content) => {
   try {
     let info = await sgMail.send(msg);
     console.log(`mail sent succcessfully >>> ${info}`);
-    return;
+    return info;
   } catch (error) {
     console.error(error);
-
     if (error.response) {
       console.error(error.response.body);
     }
   }
 };
 
-module.exports = sendMail;
+export default sendMail;
